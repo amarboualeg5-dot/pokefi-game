@@ -1,5 +1,6 @@
 package com.example.pokefi;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.animation.Animation;
@@ -8,9 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class CaptureActivity extends AppCompatActivity {
+public class CaptureActivity extends Activity {
 
     private TextView monsterInfo;
     private Button catchButton;
